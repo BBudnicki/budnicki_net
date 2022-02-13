@@ -1,0 +1,43 @@
+/////////////////////////////////////////////////
+///
+///    used to overide the boostrap variables
+///
+/////////////////////////////////////////////////
+
+
+// stylelint-disable value-keyword-case
+$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:            $font-family-sans-serif !default;
+// stylelint-enable value-keyword-case
+
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+
+
+
+// LG & SM in this context refer to the tags such as btn-lg not the responsive display size like col-lg
+// https://getbootstrap.com/docs/5.0/content/typography/#variables
+// https://getbootstrap.com/docs/5.0/getting-started/rfs/
+
+//$enable-responsive-font-sizes: true;
+$enable-shadows: true;
+
+// modify variables before importing them
+$theme-colors: (
+  "orange": #ff5a01,
+  "Health": #ff5a01,
+  "lime": #b0f954,
+);
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 2400px,
+);
+
+// https://getbootstrap.com/docs/5.0/utilities/api/#using-the-api
+
+
+@import "bootstrap/scss/_variables.scss";

@@ -2,7 +2,6 @@
   <div id="app">
     <Content></Content>
     <Map></Map>
-
   </div>
 </template>
 

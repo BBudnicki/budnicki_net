@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@fortawesome/vue-fontawesome": "^2.0.6",
-    "boostrap": "^2.0.0",
+    "bootstrap": "^4.x",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
     "leaflet": "^1.7.1",
